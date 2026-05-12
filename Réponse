@@ -1,0 +1,14 @@
+Questions de TP
+Quelle est la différence entre Git et GitHub ?
+•	Git est un logiciel de contrôle de version installé. Il permet de suivre les modifications de ton code localement
+•	GitHub est un plateforme en ligne qui héberge tes projets Git sur internet   
+À quoi sert la commande  git init ?
+Elle initialise un nouveau dépôt Git dans ton dossier. Elle crée un dossier caché. git/ qui va           stocker tout l’historique de ton projet. C’est toujours la première commande à lancer
+Quelle commande permet d’envoyer un projet sur GitHub ?
+git push Origin main
+Mais avant, il faut aussi configurer le dépôt distant :
+git remote add origin https://github.com§com/ton-user/ton-repo.git
+Pourquoi utilise-t-on les branches ?
+Les branches permettent de travailler en parallèle sans toucher au code principal
+Quelle commande permet de voir l’historique des commits ?
+git log
